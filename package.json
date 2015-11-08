@@ -1,0 +1,47 @@
+{
+  "name": "wcag-pdf-cli",
+  "version": "1.0.0",
+  "description": "CLI for checking the Accessibility of a PDF Document",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/node-wcag-pdf-cli/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/node-wcag-pdf-cli",
+  "keywords": [
+    "cli",
+    "pdf",
+    "wcag",
+    "validation",
+    "validator"
+  ],
+  "main": "index.js",
+  "bin": {
+    "wcag-pdf": "index.js"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zrrrzzt/node-wcag-pdf-cli.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "standard": "^5.3.1",
+    "tap": "^2.0.0"
+  },
+  "dependencies": {
+    "wcag-pdf": "^1.0.1"
+  }
+}

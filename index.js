@@ -16,7 +16,7 @@ if (query.indexOf('-v') !== -1 || query.indexOf('--version') !== -1) {
   process.exit(0)
 }
 
-checkPdf(query, function getResults(error, data) {
+checkPdf(query, function getResults (error, data) {
   if (error) {
     console.error(error)
     process.exit(1)

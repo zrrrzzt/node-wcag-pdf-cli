@@ -42,5 +42,5 @@ $ wcag-pdf <url-or-path-to-file>
 
 [MIT](LICENSE)
 
-![Robohash image of node-wcag-pdf-cli](https://robots.kebabstudios.party/node-wcag-pdf-cli "Robohash image of node-wcag-pdf-cli")
+![Robohash image of node-wcag-pdf-cli](https://robots.kebabstudios.party/node-wcag-pdf-cli.png "Robohash image of node-wcag-pdf-cli")
 

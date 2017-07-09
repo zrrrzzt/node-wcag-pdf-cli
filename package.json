@@ -1,6 +1,6 @@
 {
   "name": "wcag-pdf-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "CLI for checking the Accessibility of a PDF Document",
   "license": "MIT",
   "author": {
@@ -24,13 +24,13 @@
     "wcag-pdf": "index.js"
   },
   "engines": {
-    "node": ">=4.6.1"
+    "node": ">=4.8.3"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install"
   },
   "repository": {
     "type": "git",

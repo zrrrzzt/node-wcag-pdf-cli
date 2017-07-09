@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 'use strict'
 
-var checkPdf = require('wcag-pdf')
-var getHelpText = require('./lib/getHelpText')
-var pkg = require('./package.json')
-var query = process.argv[2]
+const checkPdf = require('wcag-pdf')
+const getHelpText = require('./lib/getHelpText')
+const pkg = require('./package.json')
+const query = process.argv[2]
 
 if (!query || query.indexOf('-h') !== -1 || query.indexOf('--help') !== -1) {
   console.log(getHelpText())
@@ -16,7 +16,7 @@ if (query.indexOf('-v') !== -1 || query.indexOf('--version') !== -1) {
   process.exit(0)
 }
 
-checkPdf(query, function getResults (error, data) {
+checkPdf(query, (error, data) => {
   if (error) {
     console.error(error)
     process.exit(1)

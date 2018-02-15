@@ -61,7 +61,7 @@ tap.test('It returns error on error', function testError (test) {
 })
 
 tap.test('It returns data if url supplied', function testData (test) {
-  exec('./index.js', ['https://helsedirektoratet.no/Documents/Folkehelsearbeid%20i%20kommunen/Nyhetsbrev-folkehelsearbeid-2017-3.pdf'], function testWithData (error, stdout, stderr) {
+  exec('./index.js', ['https://github.com/zrrrzzt/node-wcag-pdf/blob/master/test/data/valid.pdf'], function testWithData (error, stdout, stderr) {
     if (error) {
       throw error
     }

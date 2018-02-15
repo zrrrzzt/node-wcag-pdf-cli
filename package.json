@@ -1,6 +1,6 @@
 {
   "name": "wcag-pdf-cli",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "CLI for checking the Accessibility of a PDF Document",
   "license": "MIT",
   "author": {

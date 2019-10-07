@@ -43,6 +43,6 @@
     "tap": "14.6.9"
   },
   "dependencies": {
-    "wcag-pdf": "3.0.1"
+    "wcag-pdf": "4.0.0"
   }
 }

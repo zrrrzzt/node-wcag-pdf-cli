@@ -40,7 +40,7 @@
   "devDependencies": {
     "coveralls": "3.0.9",
     "standard": "14.3.2",
-    "tap": "14.10.6"
+    "tap": "14.10.7"
   },
   "dependencies": {
     "wcag-pdf": "4.0.0"

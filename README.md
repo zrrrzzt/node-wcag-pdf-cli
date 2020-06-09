@@ -5,6 +5,12 @@
 
 CLI for checking the accessibility of a pdf document using [checkers.eiii.eu](http://checkers.eiii.eu/)
 
+## npx
+
+```
+$ npx node-wcag-pdf-cli <url-or-path-to-file>
+```
+
 ## Installation
 
 From npm

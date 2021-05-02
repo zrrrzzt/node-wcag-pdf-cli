@@ -44,5 +44,8 @@
   },
   "dependencies": {
     "wcag-pdf": "5.0.4"
+  },
+  "tap": {
+    "check-coverage": false
   }
 }

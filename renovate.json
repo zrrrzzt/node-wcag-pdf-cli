@@ -1,11 +1,5 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "devDependencies": {
-    "automerge": true
-  },
-  "assignees": [
-    "zrrrztt"
+    "github>zrrrzzt/renovate-config"
   ]
 }

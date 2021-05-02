@@ -24,7 +24,7 @@
     "wcag-pdf": "index.js"
   },
   "engines": {
-    "node": ">=14.4.0"
+    "node": ">=14.16.1"
   },
   "scripts": {
     "test": "standard && npm audit && tap --reporter=spec test/*.js",

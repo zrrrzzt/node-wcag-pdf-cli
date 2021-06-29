@@ -38,7 +38,7 @@
     "url": "git://github.com/zrrrzzt/node-wcag-pdf-cli.git"
   },
   "devDependencies": {
-    "coveralls": "3.1.0",
+    "coveralls": "3.1.1",
     "standard": "16.0.3",
     "tap": "15.0.6"
   },

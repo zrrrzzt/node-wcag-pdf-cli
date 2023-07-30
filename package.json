@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "standard": "16.0.4",
-    "tap": "15.2.3"
+    "tap": "16.3.8"
   },
   "dependencies": {
     "wcag-pdf": "5.0.5"
